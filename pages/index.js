@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import HeaderSection from "../components/header-section";
 import React from 'react';
 import Typist from 'react-text-typist';
+import Typewriter from 'typewriter-effect';
 
 const AIWallet = () => {
   useEffect(() => {
@@ -44,7 +45,13 @@ const AIWallet = () => {
       <div className="my-0 mx-[!important] absolute top-[166px] left-[0px] flex flex-row items-center justify-start gap-[438px] z-[1] text-[40px] lg:gap-[300px] md:flex-row md:gap-[0px] md:pl-[33px] md:pb-0 md:box-border">
         <div className="relative w-[22px] h-6" />
         <div className="relative font-black md:text-[30px] md:text-center md:w-[300px]">
-        <Typist {['AI-Enhanced Crypto Wallet']}/>
+        <Typewriter
+  options={{
+    strings: ['AI-Enhanced Crypto Wallet'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
         </div>
       </div>
       <div className="my-0 mx-[!important] absolute top-[333px] left-[1px] flex flex-row items-center justify-start gap-[604px] z-[2] lg:gap-[450px] md:gap-[0px] md:pl-[65px] md:box-border">
