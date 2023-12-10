@@ -6,11 +6,11 @@ const HeaderSection = () => {
   const [isAIMenuPopupOpen, setAIMenuPopupOpen] = useState(false);
 
   const onFrameButtonClick = useCallback(() => {
-    window.open("https://jeffspace.vercel.app");
+    window.open("https://parkingswing.vercel.app");
   }, []);
 
   const onFrameButton1Click = useCallback(() => {
-    window.open("https://jeffspace.vercel.app");
+    window.open("https://parkingswing.vercel.app");
   }, []);
 
   const openAIMenuPopup = useCallback(() => {
